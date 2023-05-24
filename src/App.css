@@ -1,42 +1,28 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*Theme 3 color */
+  --bgcolor: hsl(281, 89%, 26%);
+  --bgcolorScreen: hsl(268, 71%, 12%);
+  /*keys font color*/
+  --Darkviolet-keybackground: hsl(281, 89%, 26%);
+  --Vivid-magenta-keyshadow: hsl(285, 91%, 52%);
+  
+  --Purecyan-keybackground-toggle: hsl(176, 100%, 44%);
+  --Softcyan-keyshadow: hsl(177, 92%, 70%);
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+  --Verydarkviolet-keybackground: hsl(268, 47%, 21%);
+  --Darkmagenta-keyshadow: hsl(290, 70%, 36%);
+  /*text color*/
+  --Lightyellow: hsl(52, 100%, 62%);
+  --Verydarkblue: hsl(198, 20%, 13%);  
+  --White-text: hsl(0, 0%, 100%);
+  /*font size*/
+  --Fontsize-numbers: 32px;
+  --font-family:[League Spartan]
+  --fontWeights: 700;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+@import url(https://fonts.google.com/specimen/League+Spartan);
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
